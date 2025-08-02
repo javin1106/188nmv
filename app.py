@@ -4,11 +4,11 @@ import pandas as pd
 import joblib
 
 # Load data and models
-df = joblib.load("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Models & Dataset/df.pkl")
+df = joblib.load("Models & Dataset/df.pkl")
 
-clf_model = joblib.load("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Models & Dataset/classification_model.pkl")
+clf_model = joblib.load("Models & Dataset/classification_model.pkl")
 
-reg_model = joblib.load("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Models & Dataset/regression_model.pkl")
+reg_model = joblib.load("Models & Dataset/regression_model.pkl")
 
 # App layout
 st.set_page_config(page_title="Mental Health Survey App", layout="wide")
