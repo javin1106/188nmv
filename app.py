@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import xgboost
 
 # Load data and models
 df = joblib.load("Models & Dataset/df.pkl")
