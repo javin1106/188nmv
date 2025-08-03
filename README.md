@@ -1,7 +1,5 @@
 # Capstone Project 2025  
-**Project Title:** Mental Wellness Analysis and Support Strategy  
-
->**NOTE:** Github Repo Name must be Unique OL-ID assigned. 
+**Project Title:** Mental Wellness Analysis and Support Strategy 
 
 ---
 
