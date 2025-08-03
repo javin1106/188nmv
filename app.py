@@ -152,7 +152,7 @@ elif menu == "🏁 Exploratory Data Analysis":
 
     st.divider()
     st.header("Bivariate Analysis")
-    st.image("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/bivariate1.png", caption="Bivariate Analysis (1)", use_container_width=True)
+    st.image("Images/bivariate1.png", caption="Bivariate Analysis (1)", use_container_width=True)
 
     col1, col2 = st.columns(2)
 
@@ -169,7 +169,7 @@ elif menu == "🏁 Exploratory Data Analysis":
 
         • Those who report frequent work interference are far more likely to seek mental health treatment.
         """)
-    st.image("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/bivariate2.png", caption="Bivariate Analysis (2)", use_container_width=False)
+    st.image("Images/bivariate2.png", caption="Bivariate Analysis (2)", use_container_width=False)
     st.markdown("""
     ###   
     • Most respondents fall between `25–35 years`,  
@@ -180,7 +180,7 @@ elif menu == "🏁 Exploratory Data Analysis":
     st.divider()
 
     st.header("Multivariate Analysis")
-    st.image("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/multivariate2.png", caption="Multivariate Analysis (1)", use_container_width=True)
+    st.image("Images/multivariate2.png", caption="Multivariate Analysis (1)", use_container_width=True)
 
     col1, col2 = st.columns(2)
 
@@ -368,7 +368,7 @@ elif menu == "🧮 Classification Task":
         "F1 Score": "{:.4f}"
     }), use_container_width=True)
 
-    st.image("C:/Users/LENOVO\Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/ROC Curve - Classification.png", caption="ROC Curve for different models", use_container_width=False)
+    st.image("Images/ROC Curve - Classification.png", caption="ROC Curve for different models", use_container_width=False)
 
     st.divider()
     st.markdown("### ✅ From the evaluation metrics it is evident that `XGB Classifiction` wins the race marginally over `Random Forest Classification`.")
@@ -437,7 +437,7 @@ elif menu == "📊 Persona Clustering":
     st.subheader("Techniques Used: ")
     st.write(" - Principal Component Analysis (PCA)\n - t-distributed Stochastic Neighbor Embedding (t-SNE)\n - Uniform Manifold Approximation and Projection (UMAP)")
     st.write("Here is the plot for all three techniques applied on this dataset.")
-    st.image("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/dimred.png", caption="From these clusters we can see that `UMAP` forms the best and most clear and seggregated clusters out of the three.", use_container_width=True)
+    st.image("Images/dimred.png", caption="From these clusters we can see that `UMAP` forms the best and most clear and seggregated clusters out of the three.", use_container_width=True)
     
     st.write("The most optimal number of clusters were found to be 6, ranked by silhouette score for each cluster number.")
 
@@ -447,7 +447,7 @@ elif menu == "📊 Persona Clustering":
     st.write(" - **K-Means Clustering:** 0.4836\n - **Agglomerative Clustering:** 0.4619\n - **DBSCAN:** 0.2192 (13 DBSCAN Clusters, 2 Noise Points)")
 
     st.markdown("### ✅ From these scores, we can easily say that `K-Means` is clearly our winner.")
-    st.image("C:/Users/LENOVO/Desktop/Javin Programming/machine learning files/Cohort/Capstone Project/Images/clusters.png", caption="Clusters formed by the models", use_container_width=True)
+    st.image("Images/clusters.png", caption="Clusters formed by the models", use_container_width=True)
 
     st.divider()
 
